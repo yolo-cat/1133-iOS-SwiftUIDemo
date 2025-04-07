@@ -1,6 +1,6 @@
 import SwiftUI
 
-private struct VStack_Demo: View {
+struct VStack_Demo: View {
     var body: some View {
         VStack {
             Text("Movies of the Year")
