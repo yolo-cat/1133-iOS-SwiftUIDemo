@@ -37,5 +37,5 @@ struct TextAnimationView: View {
 }
 
 #Preview {
-    SwiftUIView()
+    TextAnimationView()
 }
