@@ -4,6 +4,7 @@ struct AddListScreen: View {
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
+        /// Reference examples in ``NavigationStack_Demo``
         NavigationStack {
             Text("Add a new List")
                 .toolbar {
@@ -26,6 +27,7 @@ private struct AddListScreenDemo: View {
         }, label: {
             Text("Tap me!")
         })
+        /// Refer to the examples in ``Sheet_Demo``
         .sheet(isPresented: $isPresented) {
             AddListScreen()
         }

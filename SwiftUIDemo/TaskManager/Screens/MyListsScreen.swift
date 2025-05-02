@@ -6,6 +6,7 @@ struct MyListsScreen: View {
     @State private var showAddList: Bool = false
 
     var body: some View {
+        /// Reference examples in ``NavigationStack_Demo``
         NavigationStack {
             List {
                 // Quick Actions
@@ -19,6 +20,7 @@ struct MyListsScreen: View {
             .safeAreaInset(edge: .bottom) {
                 BottomView(showAddList: $showAddList)
             }
+            /// Refer to the examples in ``Sheet_Demo``
             .sheet(isPresented: $showAddList) {
                 AddListScreen()
             }
