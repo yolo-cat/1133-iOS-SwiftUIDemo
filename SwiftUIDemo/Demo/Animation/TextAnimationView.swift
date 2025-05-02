@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct SwiftUIView: View {
+struct TextAnimationView: View {
     @State private var count = 99
     @State private var count2 = 102
 
