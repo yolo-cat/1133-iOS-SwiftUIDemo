@@ -1,4 +1,5 @@
 import SwiftUI
+import Observation
 
 @Observable
 class Thing: Identifiable, Equatable {
