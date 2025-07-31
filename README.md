@@ -290,15 +290,6 @@ var count = 0                       // ❌ 錯誤
 
 ---
 
-## 📞 聯絡資訊
-
-- **專案維護者**：SwiftUI 教學團隊
-- **Email**：course@swiftui-demo.com
-- **討論區**：[GitHub Discussions](https://github.com/yolo-cat/1133-iOS-SwiftUIDemo/discussions)
-- **問題回報**：[GitHub Issues](https://github.com/yolo-cat/1133-iOS-SwiftUIDemo/issues)
-
----
-
 ## 📄 授權條款
 
 本專案採用 MIT 授權條款 - 詳見 [LICENSE](LICENSE) 檔案
