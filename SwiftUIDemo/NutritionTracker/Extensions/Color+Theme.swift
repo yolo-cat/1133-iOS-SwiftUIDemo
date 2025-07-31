@@ -39,4 +39,9 @@ extension Color {
     static let carbsColor = Color(hex: "#4CAF50")
     static let proteinColor = Color(hex: "#FF9800") 
     static let fatColor = Color(hex: "#E91E63")
+    
+    // Main theme colors as specified in requirements
+    static let primaryBlue = Color(red: 0.29, green: 0.56, blue: 0.89) // #4A90E2
+    static let secondaryGreen = Color(red: 0.65, green: 0.84, blue: 0.65) // #A5D6A7
+    static let accentOrange = Color(red: 1.0, green: 0.67, blue: 0.57) // #FFAB91
 }
