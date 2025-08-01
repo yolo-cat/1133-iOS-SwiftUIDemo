@@ -11,7 +11,14 @@ import SwiftUI
 struct SwiftUIDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            NutritionTrackerView()
+            ContentView()
         }
+    }
+}
+
+struct ContentView: View {
+    var body: some View {
+        // Use the new modular nutrition tracker implementation
+        NewNutritionTrackerView()
     }
 }
