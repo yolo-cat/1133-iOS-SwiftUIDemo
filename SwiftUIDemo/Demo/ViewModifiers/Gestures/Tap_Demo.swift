@@ -29,13 +29,12 @@ struct Tap_Demo2: View {
             .scaledToFit()
             .frame(width: isTapped2 ? 300 : 200)
             .animation(.default, value: isTapped2)
-        
+            .opacity(isLongPressGesture ? 0.5 : 1)
             .onLongPressGesture {
                 print("Long Pressed")
                 isLongPressGesture.toggle()
 
             }
-            
             .onTapGesture(count:1) {
                 isTapped2.toggle()
             }
