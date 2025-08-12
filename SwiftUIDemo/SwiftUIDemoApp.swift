@@ -16,9 +16,9 @@ struct SwiftUIDemoApp: App {
     }
 }
 
-struct ContentView: View {
-    var body: some View {
-        // Use the new modular nutrition tracker implementation
-        NewNutritionTrackerView()
-    }
-}
+//struct ContentView: View {
+//    var body: some View {
+//        // Use the new modular nutrition tracker implementation
+//        ContentView()
+//    }
+//}

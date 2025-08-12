@@ -52,5 +52,5 @@ struct NavigationStack_Demo2: View {
 }
 
 #Preview("NavigationPath") {
-    NavigationStack_Demo2()
+    NavigationStack_Demo()
 }

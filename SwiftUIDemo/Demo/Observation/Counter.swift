@@ -14,16 +14,20 @@ struct Counter: View {
 
 struct ModelCounter: View {
     var model: Model
+//    @Bindable var model: Model
 
     var body: some View {
         Button("Set to 100") {
             model.count = 100
         }
+//        TextField("Count", value: $model.count, format: .number)
+//            .textFieldStyle(.roundedBorder)
     }
 }
 
 struct CounterView: View {
     @State var model = Model()
+
 
     var body: some View {
         Button("Increment \(model.count)") {
